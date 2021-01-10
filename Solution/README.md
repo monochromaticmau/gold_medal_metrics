@@ -5,7 +5,6 @@
 In this project you will be writing all the SQL statements for an Olympic metrics reporting web application called Gold Medal Metrics.
 
 Gold Medal Metrics allows users to:
-
  - View countries in a list with their population, GDP, and number of Olympic gold medals.
  - Sort the list of countries by any of these attributes, as well as alphabetically by name.
  - View a detailed description of a country, with statistics on their Olympic wins.
@@ -27,7 +26,6 @@ To complete this project, you will need to write a series of JavaScript function
 #### createCountryTable
 
 Returns the SQL command that will create a table, named `Country` with the following columns:
-
  - `name` a required text field.
  - `code` a required text field.
  - `gdp` an integer.
@@ -36,7 +34,6 @@ Returns the SQL command that will create a table, named `Country` with the follo
 #### createGoldMedalTable
 
 Returns the SQL command that will create a table, named `GoldMedal` with the following columns:
-
  - `id` an integer that will function as the primary key.
  - `year` a required integer.
  - `city` a required text field.
